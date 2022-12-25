@@ -1,0 +1,90 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body{
+    font-family: "montserrat";
+    background-image: url(./assets/bg.png);
+    background: position x 100%;
+    background: position y 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+     
+}
+.navbar{
+    padding: 2rem 0;
+    margin: auto;
+    width: 106%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 0 2rem;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+.grow-list{
+    position: relative;
+    left: -20rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-left: 0.02rem solid #fff;
+}
+.logo{
+    max-width: 13rem;
+    position: relative;
+    left: 10rem;
+}
+.button-small{
+    padding: 1rem 3rem;
+    position: relative;
+    right: 16rem;
+    color: #fff;
+    background-color: #8D3DAF;
+    border-radius: 1rem;
+}
+.hero{
+    position: relative;
+    left: 20rem;
+    width: 100rem;
+    top: 8rem;
+}
+.hero-heading{
+    font-size: 8rem;
+    text-align: center;
+    color: #fff;
+}
+.hero-description{
+    font-size: 2rem;
+    position: relative;
+    left: 16rem;
+    top: 1rem;
+    color: #fff;
+    padding-bottom: 3.5rem;
+    font-size: 3rem;
+    font-weight: 100;
+}
+.button-large{
+    padding: .5rem 1rem;
+    align-content: center;
+    position: relative;
+    left: 35rem;
+    font-size: 2.5rem;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 0.6rem;
+    color: #fff;
+}
