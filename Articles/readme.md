@@ -71,6 +71,48 @@ In this article i have explained,
 
 ---
 
+## **5. CSS Positions**
+
+In this article I have explained,
+
+- Static Position Property in CSS
+- Relative Position Property in CSS
+- Abosolute Position Property in CSS
+- Fixed Position Property in CSS
+- Sticky Position Property in CSS
+
+### Here is the link
+
+[css positions](https://chandrasekhar02.hashnode.dev/css-positions)
+
+---
+
+## **6. CSS Grid **
+
+In this article I have explained,
+
+- What is Grid Layout in CSS
+- Grid Properties for Parent Elements
+- Grid Properties for Child Elements
+
+### Here is the link
+
+[css grid](https://chandrasekhar02.hashnode.dev/css-grid)
+
+---
+
+## **7. CSS Media Queries**
+
+In this article I have explained,
+
+- What is Grid Layout in CSS
+- Grid Properties for Parent Elements
+- Grid Properties for Child Elements
+
+## Here is the link
+[css media Queries](https://chandrasekhar02.hashnode.dev/css-media-queries)
+---
+
 To know more about me and my projects, follow my social media accounts :
 
 ## [LinkedIn](https://www.linkedin.com/in/chandra-sekhar-kommoju-5a7551105/)
