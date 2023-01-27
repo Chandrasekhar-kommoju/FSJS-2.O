@@ -1,0 +1,513 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    max-width: 1440px;
+}
+
+.section_hero{
+    height: 100vh;
+    background: url('./Assets/Photos/futuristic-bg.png') no-repeat center center/cover;
+    padding: 2% 6% 4%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    width: 120px;
+}
+
+.navbar ul{
+    color: #999;
+    display: flex;
+    gap: 1.5rem;
+    margin-right: 8rem;
+    list-style: none;
+}
+
+.navbar ul li:hover{
+    color: #f4694c;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+
+.btn-transparent{
+    background-color: transparent;
+    font-size: 1rem;
+    border: 1px solid transparent;
+    padding: 0.5rem 1.5rem;
+    color: #999;
+    height: 2.5rem;
+    margin-right: 1.5rem;
+}
+
+.btn-transparent:hover{
+    cursor: pointer;
+    background-color: #f4694c;
+    border: 1px solid transparent;
+    color: #fff;
+    transition: all 0.7s;
+
+}
+
+.navbar .btn-orange{
+    background-color: #f4694c;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid #f4694c;
+    padding: 0.5rem 1.5rem;
+    color: #fff;
+}
+
+.section_hero-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 7rem;
+}
+
+.section_hero-left h1{
+    font-size: 3rem;
+    color: #fff;
+}
+
+.section_hero-left p{
+    color: #999;
+    margin-top: 2rem;
+    line-height: 1.7;
+}
+
+.section_hero-container .btn-group{
+    margin-top: 2.5rem;
+}
+
+.btn-white-transparent{
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    margin-left: 1rem;
+    height: 2.5rem;
+}
+
+.btn-white-transparent:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #f4694c;
+    transition: all 0.7s;
+    box-shadow: inset -4.5em 0 0 0 #f4694c, inset 4.5em 0 0 0 #f4694c ;
+}
+
+.btn-orange{
+    background-color: #f4694c;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #f4694c;
+    font-size: 1rem;
+    height: 2.5rem;
+}
+
+.btn-orange:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #fff;
+    transition: all 0.7s;
+}
+
+.section_hero-right{
+ margin-top: 3rem;
+ justify-self: end;
+ position: relative;
+ right: 3rem;
+}
+
+.section_hero-right .play-button{
+    position: relative;
+    top: 2rem;
+    left: 4rem;
+}
+
+.section_hero-right .right-content{
+    margin-top: 12.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.section_hero-right .right-content .img-dash{
+    position: relative;
+    bottom: 1.5rem;
+    
+}
+
+.section_hero-right .right-content p{
+    color: #fff;
+}
+
+.section_hero-right .right-content .img-right-arrow{
+     align-self: flex-end;   
+    
+}
+
+.section_war-games {
+    padding: 8% 6%;
+}
+
+.section_war-games h2{
+    text-align: center;
+}
+
+.section_war-games .card-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.section_war-games .card-wrapper .card{
+     height: 350px;
+     width: 250px;
+     position: relative;
+}
+
+.section_war-games .card-wrapper .card:nth-child(1){
+    background: url('./Assets/Photos/image\ 2.png') right -80px center/cover no-repeat;
+}
+
+.section_war-games .card-wrapper .card:nth-child(2){
+    background: url('./Assets/Photos/image\ 4.png') center center/cover no-repeat;
+}
+
+.section_war-games .card-wrapper .card:nth-child(3){
+    background: url('./Assets/Photos/image\ 3.png') center center/cover no-repeat;
+}
+
+.section_war-games .card-wrapper .card:nth-child(4){
+    background: url('./Assets/Photos/Rectangle\ 56.png') center center/cover no-repeat;
+}
+
+.section_war-games .card-wrapper .card .card-bottom{
+    position: absolute;
+    bottom: 0;
+    backdrop-filter: blur(12px);
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.section_war-games .card-wrapper .card .card-bottom h4, p{
+    color: #fff;
+    font-size: 0.8rem;
+    
+}
+
+.section_war-games .card-wrapper .card .card-bottom .right{
+    align-self: center;
+}
+
+.section_war-games .card-wrapper .card .card-bottom .right button{
+    color: #fff;
+    background-color: #f4694c;
+    border: 1px solid #f4694c;
+    padding: 0.5rem 1.5rem;
+}
+
+.section_war-games .card-wrapper .card .card-bottom .right button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #f4694c;
+    transition: all 0.7s;
+}
+
+
+.section_war-games-bottom{
+    margin-top: 6rem;
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section_war-games-bottom .left img{
+    width: 100%;
+}
+
+
+
+.section_war-games-bottom .right h2{
+    text-align: left;
+}
+
+.section_war-games-bottom .right p{
+    margin-top: 1rem;
+    color: #000;
+    line-height: 1.8;
+}
+
+.section_war-games-bottom .right .btn-group{
+    margin-top: 2.5rem;
+}
+
+.section_war-games-bottom .right .btn-orange:hover{
+    cursor: pointer;
+    color: #f4694c;
+    border: 1px solid #f4694c;
+    background-color: transparent;
+     transition: all 0.7s;
+}
+
+.section_war-games-bottom .right .btn-orange-transparent{
+    padding: 0.5rem 1.5rem;
+    background-color: transparent;
+    color: #f4694c;
+    border: 1px solid #f4694c;
+    height: 2.5rem;
+    margin-left: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.section_war-games-bottom .right .btn-orange-transparent:hover{
+  background-color: transparent;
+  color: #fff;
+  transition: all 0.7s;
+  box-shadow: inset -4.5em 0 0 0 #f4694c, inset 4.5em 0 0 0 #f4694c;
+}
+
+
+/* section recommended */
+
+.section_recommended{
+    margin-top: 6rem;
+}
+
+.section_recommended-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_recommended-top .arrows .left-arrow {
+    width: 3rem;
+    background-color: #fde1db;
+    padding: 1.3rem 1rem;
+    margin-right: 0.5rem;
+}
+
+.section_recommended-top .arrows .right-arrow{
+    width: 3rem;
+    background-color: #f4694c;
+    padding: 1.3rem 1rem;
+}
+
+.section_recommended h2{
+    text-align: left;
+}
+
+.section_recommended-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.section_recommended-cards .card-wrapper{
+    display: flex;
+    gap: 2rem;
+}
+
+.section_recommended-cards .card-wrapper .right{
+    align-self: center;
+}
+
+.section_recommended-cards .card-wrapper img{
+    width: 250px;
+    height: 100%;
+}
+
+.section_recommended-cards .card-wrapper .right h6{
+    color: #f4694c;
+    margin-top: 1.5rem;
+}
+
+.section_recommended-cards .card-wrapper .right p{
+    color: #000;
+    line-height: 1.9;
+    margin-top: 1.5rem;
+}
+
+.section_recommended-cards .card-wrapper .right button {
+    margin-top: 1.5rem;
+}
+
+.section_recommended-cards .card-wrapper .right button:hover{
+    border: 1px solid #f4694c;
+    color: #f4694c;
+}
+
+/* most pplayed games */
+
+.section_most-played{
+    background-color: #000;
+    padding: 4% 6% 6%;
+}
+
+.section_most-played h2{
+    text-align: center;
+    color: #fff;
+}
+
+.section_most-played .wrapper{
+    margin-top: 2rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.section_most-played .wrapper .left img{
+    width: 400px;
+}
+
+.section_most-played .wrapper .right{
+   margin-top: 3rem;
+}
+
+.section_most-played .wrapper .right p{
+    color: #999a9c;
+}
+
+.section_most-played .wrapper .right .img-gow{
+    margin-top: 2rem;
+    height: 3.6rem;
+    position: relative;
+     right: 4.3rem;
+}
+
+.section_most-played .wrapper .right .right-imgs {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .section_most-played .wrapper .right .right-imgs .img-1 {
+    width: 300px;
+    height: 400px;
+  }
+
+  .section_most-played .wrapper .right .right-imgs .img-2 {
+    width: 300px;
+    height: 250px;
+    position: relative;
+    top: 9.5rem;
+  }
+
+.section_above-footer{
+    position: relative;
+    background: url('./Assets/Photos/Rectangle\ 606.png')center center/cover no-repeat;
+    padding: 4% 6% 12%;
+}
+
+.section_above-footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 4;
+  }
+
+  .section_above-footer h2{
+    text-align: center;
+    padding-top: 3rem;
+    color: #fff;
+    z-index: 5;
+    position: relative;
+  }
+
+  .section_above-footer p{
+    margin-top: 1rem;
+    text-align: center;
+    color: #999a9c;
+    z-index: 5;
+    position: relative;
+  }
+ 
+  .section_above-footer .btn-orange{
+     display: block;
+     margin: 0 auto;
+     z-index: 5;
+     position: relative;
+     top: 2rem;
+     bottom: 2rem;
+
+  }
+
+  /* footer */
+
+  .section_footer{
+    background-color: #000;
+    padding: 4% 6%;
+    color: #fff;
+  }
+
+  .section_footer .footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section_footer .footer-wrapper .group-logo p {
+    margin-top: 1rem;
+    color: #999a9c;
+    line-height: 1.7;
+  }
+
+
+  .section_footer .footer-wrapper .group-logo .social-icons img {
+    color: #999a9c;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .section_footer .footer-wrapper .links h6 {
+    color: #999a9c;
+    margin-bottom: 0.5rem;
+  }
+
+  .section_footer .footer-wrapper .links ul li {
+    color: #999a9c;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    list-style: none;
+  }
+
+  .section_footer .footer-wrapper .links ul li:hover {
+    color: #f4694c;
+    cursor: pointer;
+    transform: all 0.7s;
+  }
+  
+  .horizontal-line-wrapper {
+    background-color: #000;
+    height: 3rem;
+  }
+
+  .horizontal-line {
+  height: 1px;
+  background-color: #999a9c;
+  position: relative;
+  bottom: 0.3rem;
+  }
+
+
+
