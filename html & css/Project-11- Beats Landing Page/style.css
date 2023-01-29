@@ -1,0 +1,356 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1440px;
+    overflow-x: hidden;
+}
+
+.section_hero{
+    height: 100vh;
+    padding: 2% 10% 4%;
+    background-color: #0f0f10;
+    color: #fff;
+}
+/* navbar section */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 2rem;
+    margin-left: 22rem;
+}
+
+.navbar ul li{
+    font-weight: 500;
+    cursor: pointer;
+    list-style: none;
+}
+
+.navbar .logo{
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+.navbar button{
+    background-color: #1e1e21;
+    color: #fff;
+    padding: 1rem 2.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.navbar ul li:hover,
+.navbar button:hover,
+.btn-cart:hover{
+    opacity: 0.9;
+    transform: all 0.7s;
+}
+
+/* section header */
+
+.section_hero-header{
+    display: flex;
+    justify-content: space-around;
+    gap: 4rem;
+}
+
+.section_hero-header .left img {
+    position: absolute;
+    top: -10px;
+    left: 13rem;
+    height: 80%;
+}
+
+.section_hero-header .right{
+    margin-top: 2rem;
+    margin-left: 11.5rem;
+}
+
+.section_hero-header .right img{
+max-width: 70%;
+    margin-left: 3rem;
+}
+
+.section_hero-header .right h1{
+    font-size: 3rem;
+}
+
+.section_hero-header .right  h5{
+    margin-top: 3rem;
+}
+
+.section_hero-header  .right p{
+    margin-top: 2rem;
+    line-height: 1.8;
+}
+
+.btn-cart {
+    margin-top: 3rem;
+    background-color: #1e1e21;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.7rem 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.section_hero-header .right .btn-cart img{
+    margin-left: 0;
+}
+
+.section_hero-header .right .btn-cart span{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* logos section */
+.section_logos{
+    background-color: #0f0f10;
+    padding: 2% 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_logos .logo{
+        height: 100%;
+}
+
+/* specs section */
+
+.section_specs{
+    background-color: #0f0f10;
+    color: #fff;
+    padding: 4% 25%;
+}
+
+.section_specs .specs-text {
+    display: block;
+    margin: 0 auto;
+}
+
+.section_specs .container {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0 auto; */
+    margin-top: 5rem;
+}
+
+.section_specs .container .left .specs {
+    margin-bottom: 1rem;
+}
+
+.section_specs .container .left .specs:nth-child(1),
+.section_specs .container .left .specs:nth-child(4){
+    margin-left: 2rem;
+}
+
+.section_specs .container .specs p{
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+}
+
+/* case section */
+
+.section_case{
+    background-color: #0f0f10;
+    color: #fff;
+    padding: 4% 25%;
+}
+
+.section_case .case-text{
+    display: block;
+    margin: 0 auto  ;
+}
+
+.section_case .container{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* buy-section */
+
+.section_buy-now {
+    background-color: #0f0f10;
+    color: #fff;
+    padding: 4% 15%;
+}
+
+.section_buy-now .container{
+    background-color: #181a1d;
+    color: #fff;
+    padding: 5% 10%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section_buy-now .container .left h3{
+    margin-bottom: 2rem;
+}
+
+.section_buy-now .container .btn-cart-black{
+    margin-top: 1.5rem;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.7rem 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* section-styles */
+
+.section_styles{
+    background-color: #0f0f10;
+    color: #fff;
+    padding: 4% 25%;
+}
+
+.section_styles .cys-text{
+    display: block;
+    margin: 0 auto;
+}
+
+.section_styles .container {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.section_styles .container .box{
+    height: 150px;
+    width: 150px;
+    background-color: #181a1d;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.section_styles .container .box:nth-child(4),
+.box:nth-child(5) {
+  margin-top: 2rem;
+}
+
+
+
+.section_styles .container .box .headphone-img{
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    margin-top: -3rem;
+}
+
+.section_styles .container .box .bottom {
+   margin-top: 2rem;
+   display: flex;
+   justify-content: space-between;
+}
+
+.section_styles .container .box .bottom p{
+    font-size: 0.6rem;
+    margin-top: 0.3rem;
+}
+
+.section_styles .container .box .bottom .right {
+    background-color: #000;
+    align-self: flex-end;
+    padding: 0.1rem;
+    border-radius: 6px;
+}
+
+.section_styles .container .box .bottom .right img {
+    margin: 0.3rem;
+    width: 1rem ;
+    height: 1rem ;
+}
+
+/* footer */
+
+.section_footer{
+    background-color: #0f0f10;
+    color: #fff;
+    padding: 5% 0 6% 15%;
+}
+
+.section_footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_footer .container .logo{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.section_footer .container .columns li{
+    font-size: 0.8rem;
+    margin: 0.5rem 0;
+    list-style: none;
+}
+
+
+.section_footer .container .columns .cta{
+    background-color: #181a1d;
+    padding: 2% 4%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section_footer .container .columns .cta input{
+    background-color: #181a1d;
+    border: none;
+    width: 40%;
+}
+
+.section_footer .container .columns .cta .btn-cta {
+    cursor: pointer;
+    background-color: #000;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 5px;
+
+}
+
+.section_footer .container .columns .socials{
+    cursor: pointer;
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+
+.section_footer .container .up-arrow{
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1.5rem;
+    align-self: center;
+}
+
+
+
