@@ -10,6 +10,7 @@ body {
  }
 
 /* navbar */
+
 nav{
     background-color: #000;
     color: #fff;
@@ -32,6 +33,7 @@ nav{
  }
 
  .fa-caret-down {
+   color: #fff;
     margin-left: 0.5rem;
   }
 
