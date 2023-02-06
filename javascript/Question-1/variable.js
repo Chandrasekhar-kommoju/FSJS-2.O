@@ -22,3 +22,5 @@ console.log(`${Mymobilenumber} is type of ${typeof Mymobilenumber}`);
 
 let Myage = null;
 console.log(`${Myage} is type of ${typeof Myage}`);
+
+// ..

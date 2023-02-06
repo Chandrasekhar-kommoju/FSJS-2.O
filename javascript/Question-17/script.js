@@ -1,4 +1,4 @@
-// 17. Write a program which tells the number of days in a month.
+// 17.. Write a program which tells the number of days in a month.
 
 let daysInMonth = function (year, month){
     return new Date(year,month,0).getDate();

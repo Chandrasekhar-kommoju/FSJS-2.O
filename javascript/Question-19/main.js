@@ -1,5 +1,5 @@
-import { countries } from './countries';
-import {web_techs} from './web_techs';
+const countries = require('./countries.js');
+const webTechnologies = require('./web_techs.js');
 
 console.log(countries);
-console.log(web_techs);
+console.log(webTechnologies);

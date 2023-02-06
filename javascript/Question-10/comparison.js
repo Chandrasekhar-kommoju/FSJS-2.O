@@ -1,5 +1,5 @@
 
-// 10. Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
+// 10.. Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
 // - 4 > 3
 // - 4 >= 3
 // - 4 < 3

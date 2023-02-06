@@ -1,4 +1,4 @@
-// 11. Use the Date object to do the following activities
+// 11.. Use the Date object to do the following activities
 //     - What is the year today?
 //     - What is the month today as a number?
 //     - What is the date today?

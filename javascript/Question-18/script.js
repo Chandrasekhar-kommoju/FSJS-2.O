@@ -1,4 +1,4 @@
-// 18. Write a program which tells the number of days in a month, now consider leap year.
+// 18.. Write a program which tells the number of days in a month, now consider leap year.
 
 let daysInMonth = function (year, month){
     return new Date(year,month,0).getDate();
