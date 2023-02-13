@@ -35,7 +35,6 @@ console.log(string1);
 let string2 = '';
 
 for (let i = 0; i < n; i++) {
-  p;
   for (let j = 0; j < n; j++) {
     string2 += '*';
   }
