@@ -6,7 +6,7 @@ I am <h1 style="color:orange; text-shadow: 0 0 3px #FF0000">Chandra Sekhar kommo
 
 ---
 
-To know more about me, you can check My Social Media Handles :
+To know more about me, you can check My Social Media Handles  :
 
 ## [LinkedIn](https://www.linkedin.com/in/chandra-sekhar-kommoju-5a7551105/)
 
