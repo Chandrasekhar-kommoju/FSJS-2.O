@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpo  rt" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hello{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .form{
+            padding: 1rem 3rem;
+            border-radius: 1rem;
+            
+        }
+        button{
+            padding: 5px 10px;
+            border-radius: 5px;
+            position: absolute;
+            left: 650px;  
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="hello">
+        <div>
+        name : <input type="text" class="form" > 
+        <br> <br>
+        <button onclick="change()">submit</button>
+    </div>
+    </div>
+   
+    <script>
+        function change(){
+            let letters = '0123456789ABCDEF'
+            let color = '#'
+            for (let i=0;i<6;i++){
+                let r = Math.floor(Math.random()*16)
+                color = color + letters[r]
+            }
+            document.body.style.backgroundColor = color
+        }
+        
+    </script>
+</body>
+</html>
